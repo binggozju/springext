@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:binggo="http://www.binggo.org/schema"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.binggo.org/schema http://www.binggo.org/schema/binggo.xsd">
+	
+	<binggo:person id="p1" name="john" age="12" />
+	<binggo:person id="p2" name="tom" age="18" />
+	
+</beans>
