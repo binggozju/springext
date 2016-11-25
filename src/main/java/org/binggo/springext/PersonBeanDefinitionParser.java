@@ -5,10 +5,10 @@ import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils; 
 import org.w3c.dom.Element;
 
-public class PersonDefinitionParser extends AbstractSingleBeanDefinitionParser {
+public class PersonBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {
 	
 	protected Class getBeanClass(Element element) {
-		return PersonDefinition.class;
+		return Person.class;
 	}
 	
 	protected void doParse(Element element, BeanDefinitionBuilder bdBuilder) {

@@ -1,6 +1,6 @@
 package org.binggo.springext;
 
-public class PersonDefinition {
+public class Person {
 	
 	private String id;
 	private String name;
